@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 $light_green:#effffa;
-$dark_green:#14da8f;
+$dark_blue:#1453da;
 $black:#000000;
 $white:#fff;
 .dflex{
@@ -31,7 +31,7 @@ header{
     font-size:32px;
     font-weight: 600;
     span{
-      color:$dark_green;
+      color:$dark_blue;
     }
   }
   .menu_container{
@@ -76,7 +76,7 @@ header{
         @extend .dflex;
         width:56px;
         height:56px;
-        background-color: $dark_green;
+        background-color: $dark_blue;
         color:$white;
         border-radius: 8px;
         cursor: pointer;
@@ -177,7 +177,7 @@ header{
         @extend .dflex;
         width:30px;
         height:30px;
-        background-color: $dark_green;
+        background-color: $dark_blue;
         border-radius: 8px;
         margin-top: 10px;
         +span{
@@ -207,7 +207,7 @@ header{
     .service_title{
       display:block;
       text-align: center;
-      color:$dark_green;
+      color:$dark_blue;
       text-transform: uppercase;
       letter-spacing: 5px;
       font-size: 1.01vw;
@@ -275,7 +275,7 @@ header{
       display:inline-flex;
       justify-content: center;
       align-items: center;
-      background-color: $dark_green;
+      background-color: $dark_blue;
       color:$white;
       border-radius: 8px;
     }
@@ -289,7 +289,7 @@ header{
       display: inline-flex;
       justify-content: flex-start;
       font-size: .94vw;
-      color:$dark_green;
+      color:$dark_blue;
       text-decoration: none;
       align-items: center;
       span{

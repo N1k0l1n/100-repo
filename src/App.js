@@ -1,6 +1,11 @@
 import "./App.scss";
-import { FaBehance, FaDribbble } from "react-icons/fa";
-import { IoMailOutline, IoChevronForwardCircle, IoStar } from "react-icons/io5";
+import { FaHotjar } from "react-icons/fa";
+import {
+  IoMailOutline,
+  IoChevronForwardCircle,
+  IoStar,
+  IoGridOutline,
+} from "react-icons/io5";
 import { IconContext } from "react-icons";
 import Card from "./components/Card";
 import { motion } from "framer-motion";
@@ -130,7 +135,7 @@ function App() {
     <motion.div initial="initial" animate="animate">
       <motion.header variants={stagger}>
         <motion.div className="logo_wrapper" variants={header}>
-          dev<span>amit</span>
+          dev<span>Test</span>
         </motion.div>
         <motion.div className="menu_container" variants={stagger}>
           <motion.span variants={header}>
@@ -142,10 +147,10 @@ function App() {
               }}
             >
               <div className="icon">
-                <FaBehance />
+                <FaHotjar />
               </div>
               <div className="icon">
-                <FaDribbble />
+                <IoGridOutline />
               </div>
             </IconContext.Provider>
           </motion.span>
@@ -239,7 +244,7 @@ function App() {
               whileTap={{ scale: 0.95 }}
             >
               Hire Me
-              <IconContext.Provider value={{ color: "#14da8f", size: "25px" }}>
+              <IconContext.Provider value={{ color: "#1453da", size: "25px" }}>
                 <IoChevronForwardCircle />
               </IconContext.Provider>
             </motion.div>
