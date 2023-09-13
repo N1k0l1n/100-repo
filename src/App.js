@@ -2,6 +2,8 @@ import "./App.css";
 import { FaBehance, FaDribbble } from "react-icons/fa";
 import { IoMailOutline, IoChevronForwardCircle, IoStar } from "react-icons/io5";
 import { IconContext } from "react-icons";
+import pic from './assets/images/bg.png';
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -83,9 +85,14 @@ function App() {
         </div>
 
         <div className="right_content_wrapper">
-          <img src='../public/images/bg.png' alt="bg"></img>
+        <img src={pic} alt="bg"/>
+
         </div>
       </div>
+
+
+    <Card/>
+
     </>
   );
 }
